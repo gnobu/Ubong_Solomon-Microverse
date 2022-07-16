@@ -15,6 +15,14 @@ main {
     border-radius: 10px;
 }
 
+img{
+
+    max-height: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
 #img-div {
     width: 350px;
     height: 500px;
@@ -28,4 +36,25 @@ main {
 #image {
     height: 90%;
     object-fit: cover;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+li{
+
+    margin: 16px 0;
+}
+
+a{
+
+    Color: #477ca7;
+
+}
+
+a:visited{
+    color:#74638f;
 }
